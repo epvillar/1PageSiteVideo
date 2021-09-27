@@ -199,7 +199,6 @@ background: rgba(0, 0, 0, .8);
 
 }
 
-
 @media(max-width: 798px) {
     .showcase,
     .showcase header {
@@ -211,4 +210,13 @@ background: rgba(0, 0, 0, .8);
     .text h3 {
         font-size: 2rem;
     }
+}
+
+@media(max-width: 400px) {
+	.social li a{
+		width: 100px;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		justify-content: left;
+	    margin-right: 0;	
 }
